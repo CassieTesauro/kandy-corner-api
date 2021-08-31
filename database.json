@@ -1,0 +1,168 @@
+{
+    "locations": [
+        {
+            "id": 1,
+            "city": "Nashville, TN",
+            "handicapAccessible": true,
+            "OompaLoompas": 7
+        },
+        {
+            "id": 2,
+            "city": "Chatanooga, TN",
+            "handicapAccessible": true,
+            "OompaLoompas": 2
+        },
+        {
+            "id": 3,
+            "city": "Memphis, TN",
+            "handicapAccessible": true,
+            "OompaLoompas": 10
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "Snickers",
+            "price": 2.50,
+            "productTypeId": 2
+        },
+        {
+            "id": 2,
+            "name": "Pixi Stix",
+            "price": 0.60,
+            "productTypeId": 3
+        },
+        {
+            "id": 3,
+            "name": "Twix",
+            "price": 1.65,
+            "productTypeId": 2
+        },
+        {
+            "id": 4,
+            "name": "Kit Kats",
+            "price": 1.65,
+            "productTypeId": 2
+        },
+        {
+            "id": 5,
+            "name": "Ring Pop",
+            "price": 0.45,
+            "productTypeId": 1
+        },
+        {
+            "id": 6,
+            "name": "Fun Dip",
+            "price": 3.99,
+            "productTypeId": 3
+        }    
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "name": "Myriam Chavelier",
+            "locationId": 1
+        },
+        {
+            "id": 2,
+            "name": "Erin Truman",
+            "locationId": 2
+        },
+        {
+            "id": 3,
+            "name": "Alicia Ayers-Lott",
+            "locationId": 3
+        }
+    ],
+    "productTypes": [
+        {
+            "id": 1,
+            "type": "Hard Candy"
+           
+        },
+        {
+            "id": 2,
+            "type": "Chocolate"
+            
+        },
+        {
+            "id": 3,
+            "type": "Powder"
+        }
+    ],
+    "Customers": [
+        {
+            "id": 1,
+            "name": "Charlie Bucket"
+        },
+        {
+            "id": 2,
+            "name": "Violet Beauregarde"
+        },
+        {
+            "id": 3,
+            "name": "Augustus Gloop"
+        },
+        {
+            "id": 4,
+            "name": "Veruca Salt"
+        },
+        {
+            "id": 5,
+            "name": "Mike Teavee"
+        }
+
+    ],
+    "purchases:": [
+        {
+            "id": 1,
+            "totalPrice": 1.50,
+            "locationId": 1,
+            "employeeId": 1,
+            "productId": 1,
+            "customerId": 1
+        },
+        {
+            "id": 2,
+            "totalPrice": 0.60,
+            "locationId": 2,
+            "employeeId": 2,
+            "productId": 2,
+            "customerId": 2
+        },
+        {
+            "id": 3,
+            "totalPrice": 10.87,
+            "locationId": 3,
+            "employeeId": 3,
+            "productId": 3,
+            "customerId": 3
+        },
+        {
+            "id": 4,
+            "totalPrice": 1.65,
+            "locationId": 1,
+            "employeeId": 1,
+            "productId": 4,
+            "customerId": 4
+        },
+        {
+            "id": 5,
+            "totalPrice": 1.65,
+            "locationId": 2,
+            "employeeId": 2,
+            "productId": 5,
+            "customerId": 5
+        },
+        {
+            "id": 6,
+            "totalPrice": 3.99,
+            "locationId": 3,
+            "employeeId": 3,
+            "productId": 6,
+            "customerId": 3
+        }
+    ]
+}
+        
+        
